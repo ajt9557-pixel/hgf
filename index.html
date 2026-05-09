@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>For You poo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<audio autoplay loop>
+    <source src="audio/NIKI - I LIKE U (Official Music Video).mp3" type="audio/mpeg">
+</audio>
+
+<div class="hearts"></div>
+
+<div class="card">
+    <h1>Hi langitt/sky😊</h1>
+    <p>I made something for you...</p>
+    <button onclick="showMessage()">Open 💌</button>
+
+    <div id="chat" class="chat hidden"></div>
+
+    <div id="choices" class="hidden">
+        <button onclick="yes()">Yes ❤️</button>
+        <button id="noBtn" onclick="no()">No 💔</button>
+    </div>
+
+    <p id="response"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
